@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.wrapper {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.wrapper_header {
+    padding-bottom: 10px;
+}
+
+.wrapper_header_title {
+    font-size: 32px;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper_header_subtitle {
+    font-size: 18px;
+}
+
+#point {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: orange;
+    text-decoration: underline;
+    margin-top: 5px;
+
+}
+
+.wrapper_line {
+    border: 1px dashed #b6b6b6;
+    margin: 10px 0;
+}
+
+.wrapper_body {
+    border: 3px solid #f0f0f0;
+    padding: 20px 30px;
+}
+
+.diary-title {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+#food {
+    color: red;
+    font-weight: 600;
+}
+
+#learn {
+    color: green;
+    font-weight: 600;
+}
+
+#promise {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.diary-date {
+    font-size: 14px;
+    text-align: right;
+    color: #b6b6b6;
+}
