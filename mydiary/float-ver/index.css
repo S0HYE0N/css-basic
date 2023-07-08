@@ -102,6 +102,12 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .logo {
     float: left;
     width: 100px;
