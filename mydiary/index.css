@@ -91,3 +91,59 @@
     text-align: right;
     color: #b6b6b6;
 }
+
+.header {
+    height: 80px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inner {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.menu {
+   
+}
+
+.menu .menu_ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu .menu_ul li {
+    list-style: none;
+}
+
+.menu .menu_ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.menu .menu_ul li a:hover {
+    color: orange;
+}
+
+.user {
+    width: 100px;
+    text-align: right;
+}
